@@ -1,0 +1,76 @@
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 2em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  border-bottom: 1px solid #CCC;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+#logo {
+  height: 80px;
+  margin-right:20px;
+}
+
+.main-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  padding-bottom: 2em;
+}
+.section {
+  padding: 2em;
+  border-bottom: 1px solid #CCC;
+}
+
+@media (min-width: 576px) {
+  .main-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-container{
+    max-width: 720px;
+  }
+  .float-right {
+    float: right;
+    width:300px;
+  }
+  .rows-2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .block {
+    width:30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+  }
+}
